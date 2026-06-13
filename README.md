@@ -252,4 +252,15 @@ This project provides an end-to-end analysis of housing affordability in Ireland
 
 The results show that Dublin and Wicklow are the least affordable counties, while most counties fall into High or Moderate Affordability groups. Machine learning helped explain house price differences, and clustering provided a clear way to group counties based on affordability pressure.
 
+## Data Notes
+
+The repository includes the final cleaned county-level dataset used for analysis and dashboard development.
+
+The full raw Property Price Register file was not uploaded because it is a large transaction-level dataset. Instead, the project notebook shows the cleaning and aggregation process used to create county-level average house prices.
+
+Raw data sources used in this project include:
+
+- Irish Property Price Register
+- CSO county-level earnings data
+- CSO population data
 The final Power BI dashboard makes the findings easy to understand and suitable for portfolio presentation, recruiter review, and further analytical development.
