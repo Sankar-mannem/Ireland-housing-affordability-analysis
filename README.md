@@ -218,6 +218,7 @@ The cluster analysis also shows that only two counties fall into the Low Afforda
 ## Repository Structure
 
 ```text
+
 ireland-housing-affordability-analysis/
 │
 ├── data/
@@ -234,9 +235,10 @@ ireland-housing-affordability-analysis/
 │   ├── Affordability Analysis.png
 │   └── Cluster Analysis.png
 │
+├── report/
+│   └── Ireland_Housing_Affordability_Professional_Report.docx
+│
 └── README.md
-```
-
 ---
 
 ## Skills Demonstrated
