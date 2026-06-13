@@ -51,6 +51,8 @@ The project uses three main datasets:
 
 The final merged dataset contains 26 Irish counties with house price, income, population, affordability, and clustering information.
 
+---
+
 ## Data Notes
 
 The repository includes the final cleaned county-level dataset used for analysis and dashboard development.
@@ -59,9 +61,9 @@ The full raw Property Price Register file was not uploaded because it is a large
 
 Raw data sources used in this project include:
 
-- Irish Property Price Register
-- CSO county-level earnings data
-- CSO population data
+* Irish Property Price Register
+* CSO county-level earnings data
+* CSO population data
 
 ---
 
@@ -218,7 +220,6 @@ The cluster analysis also shows that only two counties fall into the Low Afforda
 ## Repository Structure
 
 ```text
-
 ireland-housing-affordability-analysis/
 │
 ├── data/
@@ -239,6 +240,20 @@ ireland-housing-affordability-analysis/
 │   └── Ireland_Housing_Affordability_Professional_Report.docx
 │
 └── README.md
+```
+
+---
+
+## Professional Report
+
+A detailed professional project report is included in the `report` folder. The report explains the full project process, including data sources, cleaning steps, feature engineering, machine learning results, clustering analysis, Power BI dashboard development, key findings, limitations, and future improvements.
+
+Report file:
+
+```text
+report/Ireland_Housing_Affordability_Professional_Report.docx
+```
+
 ---
 
 ## Skills Demonstrated
@@ -265,3 +280,5 @@ This project demonstrates the following skills:
 This project provides an end-to-end analysis of housing affordability in Ireland. By combining property prices, earnings, and population data, the analysis identifies counties with the highest housing pressure and explains how affordability varies across Ireland.
 
 The results show that Dublin and Wicklow are the least affordable counties, while most counties fall into High or Moderate Affordability groups. Machine learning helped explain house price differences, and clustering provided a clear way to group counties based on affordability pressure.
+
+The final Power BI dashboard makes the findings easy to understand through KPI cards, county rankings, income comparison, and cluster-based visualisations. Overall, this project demonstrates a complete data analytics workflow from raw data cleaning to machine learning, dashboard design, and professional project documentation.
